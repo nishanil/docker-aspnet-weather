@@ -16,5 +16,3 @@ services:
       - backendUrl=http://backend
     ports:
       - "5902:80"
-    volumes:
-      - ${APPDATA}/ASP.NET/Https:/root/.aspnet/https:ro
